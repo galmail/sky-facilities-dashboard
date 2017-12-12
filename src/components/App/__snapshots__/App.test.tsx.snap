@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App Component should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Dashboard
+</h1>,
+        <Filters
+          fromDate={2017-11-30T00:00:00.000Z}
+          onChange={[Function]}
+          toDate={2017-11-30T23:59:00.000Z}
+/>,
+        <LineChart
+          data={null}
+          height={300}
+          highlightValue={null}
+          margin={
+                    Object {
+                              "bottom": 30,
+                              "left": 50,
+                              "right": 20,
+                              "top": 20,
+                            }
+          }
+          width={760}
+/>,
+        <ChartIndicators
+          avg={undefined}
+          max={undefined}
+          min={undefined}
+          onHover={[Function]}
+/>,
+      ],
+      "className": "dashboard",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Dashboard",
+        },
+        "ref": null,
+        "rendered": "Dashboard",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "fromDate": 2017-11-30T00:00:00.000Z,
+          "onChange": [Function],
+          "toDate": 2017-11-30T23:59:00.000Z,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data": null,
+          "height": 300,
+          "highlightValue": null,
+          "margin": Object {
+            "bottom": 30,
+            "left": 50,
+            "right": 20,
+            "top": 20,
+          },
+          "width": 760,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "avg": undefined,
+          "max": undefined,
+          "min": undefined,
+          "onHover": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Dashboard
+</h1>,
+          <Filters
+            fromDate={2017-11-30T00:00:00.000Z}
+            onChange={[Function]}
+            toDate={2017-11-30T23:59:00.000Z}
+/>,
+          <LineChart
+            data={null}
+            height={300}
+            highlightValue={null}
+            margin={
+                        Object {
+                                    "bottom": 30,
+                                    "left": 50,
+                                    "right": 20,
+                                    "top": 20,
+                                  }
+            }
+            width={760}
+/>,
+          <ChartIndicators
+            avg={undefined}
+            max={undefined}
+            min={undefined}
+            onHover={[Function]}
+/>,
+        ],
+        "className": "dashboard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Dashboard",
+          },
+          "ref": null,
+          "rendered": "Dashboard",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "fromDate": 2017-11-30T00:00:00.000Z,
+            "onChange": [Function],
+            "toDate": 2017-11-30T23:59:00.000Z,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data": null,
+            "height": 300,
+            "highlightValue": null,
+            "margin": Object {
+              "bottom": 30,
+              "left": 50,
+              "right": 20,
+              "top": 20,
+            },
+            "width": 760,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "avg": undefined,
+            "max": undefined,
+            "min": undefined,
+            "onHover": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,14 @@
+.chart-indicators {
+    float: left;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chart-indicators > div {
+    margin-bottom: 5px;
+}
+
+.chart-indicators > div:hover {
+    background-color: yellow;
+}

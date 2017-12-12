@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Filters Component should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Filters
+    fromDate={2017-11-30T00:00:00.000Z}
+    onChange={[Function]}
+    toDate={2017-11-30T23:59:00.000Z}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="startDate"
+>
+          <label>
+                    From:
+          </label>
+          <input
+                    id="startDateId"
+                    onChange={[Function]}
+                    type="datetime-local"
+                    value="2017-11-30T00:00"
+          />
+</div>,
+        <div
+          className="endDate"
+>
+          <label>
+                    To:
+          </label>
+          <input
+                    id="endDateId"
+                    onChange={[Function]}
+                    type="datetime-local"
+                    value="2017-11-30T23:59"
+          />
+</div>,
+      ],
+      "className": "filters",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              From:
+</label>,
+            <input
+              id="startDateId"
+              onChange={[Function]}
+              type="datetime-local"
+              value="2017-11-30T00:00"
+/>,
+          ],
+          "className": "startDate",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "From:",
+            },
+            "ref": null,
+            "rendered": "From:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "startDateId",
+              "onChange": [Function],
+              "type": "datetime-local",
+              "value": "2017-11-30T00:00",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              To:
+</label>,
+            <input
+              id="endDateId"
+              onChange={[Function]}
+              type="datetime-local"
+              value="2017-11-30T23:59"
+/>,
+          ],
+          "className": "endDate",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "To:",
+            },
+            "ref": null,
+            "rendered": "To:",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "endDateId",
+              "onChange": [Function],
+              "type": "datetime-local",
+              "value": "2017-11-30T23:59",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="startDate"
+>
+            <label>
+                        From:
+            </label>
+            <input
+                        id="startDateId"
+                        onChange={[Function]}
+                        type="datetime-local"
+                        value="2017-11-30T00:00"
+            />
+</div>,
+          <div
+            className="endDate"
+>
+            <label>
+                        To:
+            </label>
+            <input
+                        id="endDateId"
+                        onChange={[Function]}
+                        type="datetime-local"
+                        value="2017-11-30T23:59"
+            />
+</div>,
+        ],
+        "className": "filters",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                From:
+</label>,
+              <input
+                id="startDateId"
+                onChange={[Function]}
+                type="datetime-local"
+                value="2017-11-30T00:00"
+/>,
+            ],
+            "className": "startDate",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "From:",
+              },
+              "ref": null,
+              "rendered": "From:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "startDateId",
+                "onChange": [Function],
+                "type": "datetime-local",
+                "value": "2017-11-30T00:00",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                To:
+</label>,
+              <input
+                id="endDateId"
+                onChange={[Function]}
+                type="datetime-local"
+                value="2017-11-30T23:59"
+/>,
+            ],
+            "className": "endDate",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "To:",
+              },
+              "ref": null,
+              "rendered": "To:",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "endDateId",
+                "onChange": [Function],
+                "type": "datetime-local",
+                "value": "2017-11-30T23:59",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;

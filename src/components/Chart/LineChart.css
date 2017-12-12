@@ -1,0 +1,21 @@
+/* LineChart.css */
+
+.line-chart {
+  float: left;
+  width: 760px;
+  height: 300px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.line-chart .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.line-chart .focus circle {
+  fill: #F1F3F3;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 5px;
+}

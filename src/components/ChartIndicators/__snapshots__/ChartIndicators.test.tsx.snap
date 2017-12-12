@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ChartIndicators Component should render without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ChartIndicators />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="min-temperature"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+>
+          Min Temp: 
+          -----
+</div>,
+        <div
+          className="max-temperature"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+>
+          Max Temp: 
+          -----
+</div>,
+        <div
+          className="avg-temperature"
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+>
+          Avg Temp: 
+          -----
+</div>,
+      ],
+      "className": "chart-indicators",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Min Temp: ",
+            "-----",
+          ],
+          "className": "min-temperature",
+          "onMouseOut": [Function],
+          "onMouseOver": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Min Temp: ",
+          "-----",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Max Temp: ",
+            "-----",
+          ],
+          "className": "max-temperature",
+          "onMouseOut": [Function],
+          "onMouseOver": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Max Temp: ",
+          "-----",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Avg Temp: ",
+            "-----",
+          ],
+          "className": "avg-temperature",
+          "onMouseOut": [Function],
+          "onMouseOver": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Avg Temp: ",
+          "-----",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="min-temperature"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+>
+            Min Temp: 
+            -----
+</div>,
+          <div
+            className="max-temperature"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+>
+            Max Temp: 
+            -----
+</div>,
+          <div
+            className="avg-temperature"
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+>
+            Avg Temp: 
+            -----
+</div>,
+        ],
+        "className": "chart-indicators",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Min Temp: ",
+              "-----",
+            ],
+            "className": "min-temperature",
+            "onMouseOut": [Function],
+            "onMouseOver": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Min Temp: ",
+            "-----",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Max Temp: ",
+              "-----",
+            ],
+            "className": "max-temperature",
+            "onMouseOut": [Function],
+            "onMouseOver": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Max Temp: ",
+            "-----",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Avg Temp: ",
+              "-----",
+            ],
+            "className": "avg-temperature",
+            "onMouseOut": [Function],
+            "onMouseOver": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Avg Temp: ",
+            "-----",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactFifteenAdapter {
+      "options": Object {
+        "supportPrevContextArgumentOfComponentDidUpdate": true,
+      },
+    },
+  },
+}
+`;
